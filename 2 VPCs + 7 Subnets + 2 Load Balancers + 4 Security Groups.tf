@@ -491,7 +491,6 @@ resource "aws_vpc" "Mauvais_VPC" {
   
   tags = {
     Name = "public_subnet-1"
-    Owner = "Joe Mauvais"
     Layer = "Web Layer"    
     Environment = "Test"
   }
@@ -503,7 +502,6 @@ resource "aws_vpc" "Mauvais_VPC" {
   
   tags = {
     Name = "public_subnet-2"
-    Owner = "Joe Mauvais"
     Layer = "Web Layer"    
     Environment = "Test"
   }
@@ -515,7 +513,6 @@ resource "aws_vpc" "Mauvais_VPC" {
   
   tags = {
     Name = "public_subnet-3"
-    Owner = "Joe Mauvais"
     Layer = "Web Layer"  
     Environment = "Test"  
   }
@@ -527,7 +524,6 @@ resource "aws_vpc" "Mauvais_VPC" {
   
   tags = {
     Name = "private_subnet-1"
-    Owner = "Joe Mauvais"
     Layer = "Application Layer"    
     Environment = "Test"
   }
@@ -539,7 +535,6 @@ resource "aws_vpc" "Mauvais_VPC" {
   
   tags = {
     Name = "private_subnet-2"
-    Owner = "Joe Mauvais"
     Layer = "Application Layer"    
     Environment = "Test"
   }
@@ -551,7 +546,6 @@ resource "aws_vpc" "Mauvais_VPC" {
   
   tags = {
     Name = "private_subnet-3"
-    Owner = "Joe Mauvais"
     Layer = "Application Layer"    
     Environment = "Test"
   }
@@ -563,7 +557,6 @@ resource "aws_vpc" "Mauvais_VPC" {
   
   tags = {
     Name = "private_subnet-4"
-    Owner = "Joe Mauvais"
     Layer = "Database Layer"    
     Environment = "Test"
   }
@@ -579,7 +572,6 @@ resource "aws_vpc" "Mauvais_VPC" {
   
   tags = {
     Name = "public_subnet1"
-    Owner = "Joe Mauvais"
     Layer = "Web Layer"    
     Environment = "Production"
   }
@@ -591,7 +583,6 @@ resource "aws_vpc" "Mauvais_VPC" {
   
   tags = {
     Name = "public_subnet2"
-    Owner = "Joe Mauvais"
     Layer = "Web Layer"    
     Environment = "Production"
   }
@@ -603,7 +594,6 @@ resource "aws_vpc" "Mauvais_VPC" {
   
   tags = {
     Name = "public_subnet3"
-    Owner = "Joe Mauvais"
     Layer = "Web Layer"    
     Environment = "Production"
   }
@@ -615,7 +605,6 @@ resource "aws_vpc" "Mauvais_VPC" {
   
   tags = {
     Name = "private_subnet1"
-    Owner = "Joe Mauvais"
     Layer = "Application Layer"   
     Environment = "Production" 
   }
@@ -627,7 +616,6 @@ resource "aws_vpc" "Mauvais_VPC" {
   
   tags = {
     Name = "private_subnet2"
-    Owner = "Joe Mauvais"
     Layer = "Application Layer"    
     Environment = "Production"
   }
@@ -639,7 +627,6 @@ resource "aws_vpc" "Mauvais_VPC" {
   
   tags = {
     Name = "private_subnet3"
-    Owner = "Joe Mauvais"
     Layer = "Application Layer"    
     Environment = "Production"
   }
@@ -651,7 +638,6 @@ resource "aws_vpc" "Mauvais_VPC" {
   
   tags = {
     Name = "private_subnet4"
-    Owner = "Joe Mauvais"
     Layer = "Database Layer"    
     Environment = "Production"
   }
